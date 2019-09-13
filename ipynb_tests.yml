@@ -1,0 +1,12 @@
+version: 0.0.1
+prepend_files:
+    - some_imports.py
+append_files:
+    - some_prints.py
+notebooks:
+    - Assignment 1.ipynb:
+        functions:
+            - add_book_to_purchase
+        tests: test_assignment_1.py
+        prepend_file:
+            - some_other_imports.py
